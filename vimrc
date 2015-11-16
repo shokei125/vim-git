@@ -1,9 +1,9 @@
-:set encoding=utf-8
-:set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
-:set fileformats=unix,dos,mac
-:set tabstop=2
-:set nocompatible
-:syntax on
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+set tabstop=2
+set nocompatible
+syntax on
 filetype off
 if has('vim_starting')
 	set runtimepath+=~/.vim/bundle/neobundle.vim/
@@ -18,6 +18,7 @@ NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'tomasr/molokai'
 
 let g:syntastic_check_on_open = 1
 let g:syntastic_enable_signs = 1
