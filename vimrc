@@ -4,6 +4,8 @@ set fileformats=unix,dos,mac
 set tabstop=2
 set nocompatible
 syntax on
+colorscheme molokai
+set t_Co=256
 filetype off
 if has('vim_starting')
 	set runtimepath+=~/.vim/bundle/neobundle.vim/
